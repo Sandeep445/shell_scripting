@@ -1,8 +1,3 @@
 #!/bin/bash
-cat /etc/passwd
 
-echo "Welcome to my world."
-
-echo "Hello world."
-
-echo $bash
+export PS1=[ \[\e[1;31m\]\u\[\e[m\]@\[\e[1;33m\]fronted\[\e[m\] \[\e[1;36m\]\w\[\e[m\] ]\$
